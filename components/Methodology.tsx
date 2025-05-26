@@ -208,63 +208,63 @@ export default function Methodology() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="bg-white/5 p-6 sm:p-8 rounded-lg border border-white/10">
                 <h4 className="text-xl font-semibold text-white mb-4">
-                  Data Processing Excellence
+                  Development Strategy
                 </h4>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3"></span>
                     <span className="text-gray-300 text-sm">
-                      Multi-source data integration from IoT sensors, satellite
-                      imagery, and vehicle datasets
+                      Agile SDLC with iterative refinement and user-centered
+                      feedback loops
                     </span>
                   </div>
                   <div className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3"></span>
                     <span className="text-gray-300 text-sm">
-                      Advanced preprocessing with NDVI calculation and
-                      Mel-spectrogram extraction
+                      Microservices architecture enabling modular, scalable
+                      backend services
                     </span>
                   </div>
                   <div className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3"></span>
                     <span className="text-gray-300 text-sm">
-                      LLM-powered text parsing for emission certificate data
-                      extraction
+                      Comprehensive testing: unit, integration, performance, and
+                      UAT
                     </span>
                   </div>
                 </div>
               </div>
               <div className="bg-white/5 p-6 sm:p-8 rounded-lg border border-white/10">
                 <h4 className="text-xl font-semibold text-white mb-4">
-                  AI Model Innovation
+                  AI-Powered Innovations
                 </h4>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3"></span>
                     <span className="text-gray-300 text-sm">
-                      U-Net CNNs for precise pixel-wise tree segmentation from
-                      satellite imagery
+                      Real-time emotion detection using Xception and MTCNN for
+                      adaptive learning
                     </span>
                   </div>
                   <div className="flex items-start">
                     <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3"></span>
                     <span className="text-gray-300 text-sm">
-                      Multi-label CNN classifiers for overlapping urban noise
-                      source identification
+                      Personalized speech pace prediction via hybrid CNN-RNN and
+                      mel spectrogram analysis
                     </span>
                   </div>
                   <div className="flex items-start">
                     <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3"></span>
                     <span className="text-gray-300 text-sm">
-                      Ensemble ML models with TOPSIS decision-making for vehicle
-                      eco-efficiency
+                      AI-driven sentence generation using fine-tuned BERT and
+                      NLP for content simplification
                     </span>
                   </div>
                   <div className="flex items-start">
                     <span className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3"></span>
                     <span className="text-gray-300 text-sm">
-                      LLaMA 3.3 with RAG for context-aware environmental
-                      recommendations
+                      Gamified Touch Math module with speech recognition for
+                      dyscalculia support
                     </span>
                   </div>
                 </div>
@@ -275,11 +275,11 @@ export default function Methodology() {
                 Systematic Impact
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
-                This systematic and iterative methodology has enabled the
-                development of IEMS as a robust, scalable, and impactful
-                platform for intelligent eco-urban monitoring, ensuring high
-                performance across diverse environmental conditions and user
-                scenarios.
+                Through rigorous testing, agile iteration, and AI innovation,
+                LexAyudha has emerged as a transformative, inclusive platform
+                for adolescents with dyslexia and dyscalculia—delivering
+                personalized, adaptive, and emotionally intelligent learning
+                experiences.
               </p>
             </div>
           </div>
