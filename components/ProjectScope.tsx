@@ -8,56 +8,56 @@ import {
 
 const literatureSurvey = [
   {
-    title: "Urban Air Quality Monitoring (EcoSensor AI)",
+    title: "Chromatic Variation for Dyslexia (VisualEase AI)",
     content:
-      "Numerous studies have explored IoT-based sensor networks for real-time air pollutant detection (CO₂, PM2.5, NO₂, SO₂). Advancements in Machine Learning, including Random Forests, Support Vector Regression (SVR), and LSTM networks, have shown promise in predicting air quality trends from sensor data and meteorological factors. However, few systems seamlessly integrate these predictions with actionable, context-aware recommendations for citizens and policymakers.",
+      "Studies highlight that dyslexic individuals experience visual stress, making reading traditional black-on-white content difficult. Research recommends chromatic pairings like pale yellow on dark blue for improved readability. While effective, most platforms lack dynamic chromatic adaptation. LexAyudha addresses this gap with real-time, AI-driven chromatic adjustments to minimize visual stress and enhance engagement.",
   },
   {
-    title: "Urban Green Space Analysis (Green Vision AI)",
+    title: "Emotion Detection in Learning (AffectSense)",
     content:
-      "Remote sensing and GIS have long been used to assess urban green spaces. Early work focused on single indices like NDVI. More recent studies integrate multiple vegetation indices (EVI, SAVI) and increasingly leverage Deep Learning (CNNs like U-Net) for precise vegetation segmentation and classification from high-resolution satellite imagery. Temporal analysis using LSTMs for forecasting green cover changes is an emerging area, crucial for proactive urban planning.",
+      "Emotion-aware adaptive systems are crucial in education, especially for learners with dyslexia and dyscalculia who face 20–30% more stress. Research supports facial expression recognition using CNNs like Xception. LexAyudha applies this through real-time emotion detection, adjusting task complexity based on frustration, distraction, or engagement signals, creating a more responsive learning environment.",
   },
   {
-    title: "Urban Noise Monitoring & Classification (Noise Guard AI)",
+    title: "Personalized Speech Pace Adjustment (SpeechAdapt AI)",
     content:
-      "Research has advanced from basic sound level metering to sophisticated IoT-based noise sensor networks. AI, particularly CNNs and Convolutional Recurrent Neural Networks (CRNNs), is increasingly used for classifying urban soundscapes, distinguishing sources like traffic, construction, and human activity. Multi-label sound classification, addressing co-occurring noise sources, is a key development. Real-time noise mapping and predictive modeling are vital for effective noise management.",
+      "Speech comprehension challenges in dyslexic learners are well documented. Existing tools offer manual rate control but lack AI-driven personalization. LexAyudha uses a hybrid CNN-RNN model on mel spectrograms to predict optimal speech pace, delivering tailored audio via Google TTS, enhancing understanding and reducing cognitive load.",
   },
   {
-    title: "Vehicle CO₂ Emission Reduction (EcoGo)",
+    title: "Multisensory Learning for Dyscalculia (Touch Math)",
     content:
-      "Predicting vehicle CO₂ emissions has involved simulation models and, more recently, ML techniques (ensemble methods like Random Forest, XGBoost) based on vehicle specifications (engine size, fuel type, powertrain). Multi-Criteria Decision-Making (MCDM) approaches like TOPSIS are used for vehicle comparison. Eco-driving principles and LLM-powered personalized recommendations for driving behavior and route optimization are gaining traction to influence behavioral change.",
+      "Touch Math is a multisensory method proven effective in teaching arithmetic to dyscalculic learners. Digital adaptations are limited and often non-interactive. LexAyudha bridges this with a gamified platform combining visual, tactile, and auditory cues—integrating real-time speech feedback and adaptive content for personalized math learning.",
   },
 ];
 
 const researchGaps = [
-  "Lack of Integrated Multi-Pollutant Monitoring: Most systems focus on a single environmental aspect. There&apos;s a need for a unified platform that correlates data from air quality, noise pollution, green space health, and transportation emissions.",
-  "From Data to Actionable Intelligence: Many systems excel at data collection and prediction but fall short in translating complex data into easily understandable, actionable recommendations for diverse stakeholders.",
-  "Limited Personalized & Context-Aware Guidance: Generic advice has limited impact. There&apos;s a gap in providing recommendations tailored to specific locations, times, individual vehicle characteristics, or user contexts.",
-  "Real-Time Dynamic Adaptation: Urban environments are highly dynamic. Systems need to adapt their monitoring and recommendations in real-time based on changing conditions, rather than relying on static models.",
-  "Comprehensive Green Space Forecasting: While green space mapping exists, robust, accessible tools for forecasting changes in urban vegetation health and coverage over time are not widely integrated.",
-  "Behavioral Change Enablement for CO₂ Reduction: Beyond CO₂ prediction, there&apos;s a need for systems that actively engage users in reducing their carbon footprint through personalized vehicle choice and eco-driving tips.",
+  "Lack of Real-Time Visual Personalization: Most tools use fixed or manually chosen color schemes without dynamic chromatic variation tailored to dyslexic readers.",
+  "Limited Emotion-Responsive Systems: While emotion detection is advancing, few systems translate emotional data into actionable learning adjustments or reports for parents and educators.",
+  "Absence of AI-Driven Speech Pacing: Current TTS tools do not use deep learning to predict optimal speech pace based on individual comprehension needs.",
+  "Ineffective Digital Tools for Dyscalculia: Existing platforms rarely combine gamification, real-time speech feedback, and adaptive learning in multisensory math teaching.",
+  "Disconnected Cognitive and Emotional Adaptation: Few platforms holistically integrate emotion, visual comfort, and content difficulty into one cohesive, responsive learning experience.",
+  "Lack of Guardian Feedback Loops: Current tools often ignore the potential of emotional progress reports to support at-home learning alignment.",
 ];
 
 const researchObjectives = [
   {
-    title: "EcoSensor AI - Air Quality & Green Vision",
+    title: "VisualEase AI - Chromatic Variation Engine",
     description:
-      "Develop scalable IoT sensor networks for real-time air quality monitoring (CO₂, PM2.5, etc.) with hybrid AI models (RF, SVR, LSTM) for prediction. Implement CNN-based tree segmentation from satellite imagery and LSTM forecasting for green coverage changes.",
+      "Develop a real-time chromatic variation module that adapts font, background, and contrast dynamically to reduce visual stress and enhance readability for dyslexic learners using Chroma.js and visual stress datasets.",
   },
   {
-    title: "Noise Guard AI - Smart Noise Monitoring",
+    title: "AffectSense - Emotion-Aware Learning",
     description:
-      "Deploy IoT sensors for continuous urban noise data collection and develop advanced CNN models for accurate multi-label classification of noise sources. Create interactive dashboards for real-time and predicted noise visualization.",
+      "Implement real-time facial emotion recognition using MTCNN and Xception to detect frustration, distraction, and engagement. Dynamically adjust learning tasks and generate guardian reports to foster emotionally aware, adaptive learning.",
   },
   {
-    title: "EcoGo - Vehicle CO₂ Reduction",
+    title: "SpeechAdapt AI - Personalized Speech Comprehension",
     description:
-      "Create precise ensemble ML models for CO₂ emission prediction based on vehicle attributes. Implement MCDM (TOPSIS) for vehicle eco-efficiency ranking and integrate LLM with RAG for personalized emission reduction recommendations.",
+      "Use CNN-RNN models on mel spectrograms for speech pace prediction. Integrate with Google TTS to deliver personalized, pace-optimized audio for dyslexic adolescents to improve auditory comprehension.",
   },
   {
-    title: "Integrated IEMS Platform",
+    title: "Touch Math - Gamified Multisensory Math Learning",
     description:
-      "Build a modular backend system (Python/Flask, Node.js) and responsive frontend dashboard (React.js) for seamless data visualization and user interaction across all components. Ensure robust data handling, storage, and API communication.",
+      "Design an interactive web platform using the Touch Math method. Combine visual-tactile number interactions with gamification, real-time speech recognition, and adaptive quizzes for dyscalculic students.",
   },
 ];
 
@@ -111,52 +111,53 @@ export default function ProjectScope() {
               <h4 className="text-blue-400 font-semibold mb-4">References</h4>
               <div className="space-y-2 text-gray-300 text-sm">
                 <p>
-                  [1] United Nations, &quot;World Urbanization Prospects
-                  2018,&quot; UN Department of Economic and Social Affairs,
-                  2019.
+                  [1] E. M. H. De Saram et al., “Walipilla: Mobile-based
+                  screening and refinement system to identify the risk of
+                  reading weaknesses due to dyslexia,” in{" "}
+                  <em>Int. Conf. Adv. Comput. Technol. Appl. (ICACTA)</em>,
+                  2023.
                 </p>
                 <p>
-                  [2] M. Tikkiwal, V. Katiyar, and D. Singh, &quot;IoT-Based Air
-                  Pollution Monitoring and Forecasting System Using Machine
-                  Learning,&quot; <em>Sensors</em>, vol. 20, no. 11, pp.
-                  2982–2997, 2020.
+                  [2] British Dyslexia Association, “About dyscalculia - British
+                  Dyslexia Association.” [Online]. Available:
+                  https://www.bdadyslexia.org.uk/dyscalculia/how-can-i-identify-dyscalculia
                 </p>
                 <p>
-                  [3] H. Wang, X. Liu, and R. Li, &quot;Air Pollution
-                  Forecasting Using Hybrid Deep Learning Models,&quot;{" "}
-                  <em>Atmospheric Pollution Research</em>, vol. 12, no. 3, pp.
-                  43–51, 2021.
+                  [3] Ministry of Education, Annual School Census Final Report
+                  2022, Sri Lanka, Jun. 2024. [Online]. Available:
+                  https://moe.gov.lk/wp-content/uploads/2024/06/07/Annual_School_Census_Final_Report_2022_V3.pdf
                 </p>
                 <p>
-                  [4] H. Zhong, K. Chen, C. Liu, and M. Zhu, &quot;A Survey on
-                  Vehicle CO₂ Emission Prediction Models,&quot;{" "}
-                  <em>Environmental Modelling & Software</em>, vol. 154, p.
-                  105413, 2022.
+                  [4] “COE - Students with Disabilities.” [Online]. Available:
+                  https://nces.ed.gov/programs/coe/indicator/cgg/students-with-disabilities
                 </p>
                 <p>
-                  [5] N. Subramaniam and N. Yusof, &quot;Ensemble Learning
-                  Models for Transportation CO₂ Emission Prediction,&quot;{" "}
-                  <em>Journal of Cleaner Production</em>, vol. 278, pp. 123–131,
-                  2021.
+                  [5] S. Rajapakse et al., “ALEXZA: A mobile application for
+                  dyslexics utilizing artificial intelligence and machine
+                  learning concepts,” in{" "}
+                  <em>3rd Int. Conf. Inf. Technol. Res. (ICITR)</em>, Moratuwa,
+                  Sri Lanka, 2018.
                 </p>
                 <p>
-                  [6] T. Thao, P. Nguyen, and L. Tran, &quot;Environmental Sound
-                  Classification Using Deep Convolutional Neural Networks,&quot;{" "}
-                  <em>Applied Acoustics</em>, vol. 174, p. 107660, 2021.
+                  [6] J. P. Cardona et al., “Remedial Training with Learning
+                  Objects to Reduce Dyslexia in Children,” <em>IEEE</em>, Oct.
+                  2019. doi: 10.1109/contie49246.2019.00022.
                 </p>
                 <p>
-                  [7] I. Senanayake, W. Welivitiya and P. Nadeeka, &quot;Urban
-                  green spaces analysis for development planning in Colombo, Sri
-                  Lanka, utilizing THEOS satellite imagery – A remote sensing
-                  and GIS approach,&quot;{" "}
-                  <em>Urban Forestry & Urban Greening</em>, vol. 12, no. 3,
-                  2013.
+                  [7] W. Canfield, “ALEKS: a Web-based intelligent tutoring
+                  system,” <em>Int. J. Artif. Intell. Educ.</em>, vol. 35, no.
+                  2, pp. 152–158, Jun. 2001.
                 </p>
                 <p>
-                  [8] Y. Cheng, J. Ding and H. Liu, &quot;Analysis and
-                  Assessment of Urban Green Space,&quot;{" "}
-                  <em>Academic Journal of Environment & Earth Science</em>, vol.
-                  4, no. 4, 2022.
+                  [8] B. Pinna and K. Deiana, “On the Role of Color in Reading
+                  and Comprehension Tasks in Dyslexic Children and Adults,”{" "}
+                  <em>i-Perception</em>, vol. 9, no. 3, 2018. doi:
+                  10.1177/2041669518779098.
+                </p>
+                <p>
+                  [9] British Dyslexia Association, “British Dyslexia
+                  Association.” [Online]. Available:
+                  https://www.bdadyslexia.org.uk/
                 </p>
               </div>
             </div>
@@ -207,67 +208,70 @@ export default function ProjectScope() {
                   The Problem
                 </h4>
                 <p className="text-gray-300 leading-relaxed">
-                  Modern cities face an escalating and interconnected
-                  environmental crisis. Air and noise pollution diminish public
-                  health, degrading green spaces reduce ecological resilience,
-                  and transportation remains a major CO₂ contributor.
-                  Decision-makers lack integrated, real-time, and predictive
-                  tools to effectively manage these complex challenges. Citizens
-                  are often unaware or unequipped to make environmentally sound
-                  choices.
+                  Students with dyslexia and dyscalculia face significant
+                  cognitive, sensory, and emotional barriers in traditional
+                  educational settings. Visual stress, slow speech
+                  comprehension, emotional distress, and a lack of personalized,
+                  adaptive support tools hinder their academic performance and
+                  engagement. Existing learning platforms often provide static
+                  content and fail to address these multifaceted challenges in a
+                  cohesive, real-time manner.
                 </p>
               </div>
               <div className="bg-green-500/10 p-6 sm:p-8 rounded-lg border border-green-500/20">
                 <h4 className="text-xl font-bold text-green-400 mb-4">
-                  Our Solution: IEMS - A Unified Intelligent System
+                  Our Solution: LexAyudha – An AI-Driven Learning Companion
                 </h4>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  IEMS is an integrated platform designed to comprehensively
-                  monitor, analyze, predict, and provide actionable insights
-                  across key urban environmental domains through specialized,
-                  interconnected AI-driven components:
+                  LexAyudha is an intelligent, emotion-aware learning platform
+                  that unifies adaptive educational technologies to deliver a
+                  personalized, inclusive, and responsive experience for
+                  neurodiverse adolescents through these integrated AI-powered
+                  components:
                 </p>
                 <div className="space-y-3 text-sm">
                   <div>
                     <span className="text-blue-400 font-semibold">
-                      EcoSensor AI:
+                      VisualEase AI:
                     </span>
                     <span className="text-gray-300">
                       {" "}
-                      Real-time air quality monitoring using IoT sensors
-                      (MQ-135, SDS011, DHT22) with hybrid ML models and
-                      LLM-generated health advisories
-                    </span>
-                  </div>
-                  <div>
-                    <span className="text-green-400 font-semibold">
-                      Green Vision AI:
-                    </span>
-                    <span className="text-gray-300">
-                      {" "}
-                      Satellite-based urban vegetation analysis using U-Net CNNs
-                      for tree segmentation and LSTM networks for green coverage
-                      forecasting
+                      Chromatic variation module with real-time font and
+                      background adjustments to minimize visual stress and
+                      improve readability for dyslexic learners
                     </span>
                   </div>
                   <div>
                     <span className="text-purple-400 font-semibold">
-                      Noise Guard AI:
+                      AffectSense:
                     </span>
                     <span className="text-gray-300">
                       {" "}
-                      Smart noise monitoring with multi-label classification and
-                      predictive analytics for urban soundscape management
+                      Emotion detection using MTCNN and Xception models to adapt
+                      learning difficulty based on real-time facial expression
+                      feedback (frustration, distraction, engagement)
                     </span>
                   </div>
                   <div>
-                    <span className="text-orange-400 font-semibold">
-                      EcoGo:
+                    <span className="text-yellow-400 font-semibold">
+                      SpeechAdapt AI:
                     </span>
                     <span className="text-gray-300">
                       {" "}
-                      Vehicle CO₂ prediction with TOPSIS-based ranking and
-                      personalized eco-driving recommendations using LLaMA 3.3
+                      Hybrid CNN-RNN models analyze mel spectrograms to predict
+                      personalized speech pace and generate TTS audio tailored
+                      to each learner's comprehension needs
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-pink-400 font-semibold">
+                      Touch Math:
+                    </span>
+                    <span className="text-gray-300">
+                      {" "}
+                      Gamified multisensory learning platform based on the Touch
+                      Math method, integrating visual, auditory, and tactile
+                      feedback for improving number sense and arithmetic skills
                     </span>
                   </div>
                 </div>
