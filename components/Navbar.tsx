@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion } from "framer-motion";
-import Logo from "../public/images/logo.png";
 
 const navLinks = [
   { name: "Home", href: "/" },
