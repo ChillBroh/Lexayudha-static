@@ -1,81 +1,80 @@
-# IEMS - Intelligent EcoUrban Monitoring System
+**Empowering Neurodiverse Adolescents through Adaptive Learning**
 
-**Pioneering a Greener, Smarter Urban Future**
+![LexAyudha Banner](public/images/lexayudha-banner.webp)
 
-![IEMS Banner](public/images/environmental-bg.webp)
+## 🧠 Project Overview
 
-## 🌍 Project Overview
-
-The **Intelligent EcoUrban Monitoring System (IEMS)** is a revolutionary platform that integrates cutting-edge AI, IoT, and data analytics to provide comprehensive, real-time, and predictive insights into urban environmental challenges. IEMS addresses the complex interconnected issues of air quality, noise pollution, green space dynamics, and vehicle CO₂ emissions through four specialized AI-driven components.
+**LexAyudha** is an innovative, AI-powered learning platform designed to assist adolescents with **dyslexia** and **dyscalculia**. By combining advanced AI, NLP, emotion detection, and multisensory teaching strategies, LexAyudha provides a truly personalized and inclusive educational experience. The system adapts content dynamically based on each learner’s cognitive and emotional state to improve comprehension, engagement, and confidence.
 
 ### 🎯 Core Components
 
-1. **🌱 EcoSensor AI** - Real-time air quality monitoring using IoT sensors with hybrid ML models and LLM-generated health advisories
-2. **🌳 Green Vision AI** - Satellite-based urban vegetation analysis using U-Net CNNs for tree segmentation and LSTM forecasting
-3. **🔊 Noise Guard AI** - Smart noise monitoring with multi-label classification and predictive analytics
-4. **🚗 EcoGo** - Vehicle CO₂ prediction with TOPSIS-based ranking and personalized eco-driving recommendations
+1. **🎨 Chromatic Teaching Module** – Reduces visual stress through real-time contrast and font adjustments.
+2. **🧾 Adaptive Content Generator** – Simplifies sentences using a fine-tuned BERT model for individualized reading levels.
+3. **😐 Emotion Detection AI** – Real-time facial analysis with Xception and MTCNN to tailor task difficulty based on emotion.
+4. **🔊 Speech Pace Optimizer** – CNN-RNN model predicts ideal speech rate and delivers audio via Google TTS.
+5. **🧮 Touch Math Platform** – Gamified, multisensory math learning with voice feedback and interaction tracking.
 
 ## ✨ Key Features
 
-- **Real-time Environmental Monitoring** - Live data from IoT sensor networks
-- **AI-Powered Predictions** - Advanced machine learning models for forecasting
-- **Interactive Dashboards** - Modern, responsive web interface with data visualizations
-- **Personalized Recommendations** - Context-aware guidance using LLaMA 3.3 with RAG
-- **Multi-source Data Integration** - IoT sensors, satellite imagery, and vehicle datasets
-- **Academic Research Foundation** - Built on comprehensive literature survey and research
+- **AI-Powered Personalization** – Emotion-aware, content-adaptive learning environment
+- **Speech & Audio Feedback** – Real-time pronunciation and pace correction
+- **Gamified Math Support** – Touch-point interaction and real-time quizzes
+- **Inclusive Design** – WCAG-compliant UI with chromatic variation and font customization
+- **Progress Analytics** – Emotional reports and academic insights for guardians and educators
 
 ## 🛠️ Technology Stack
 
-### AI & Machine Learning
+### 🧠 AI & Machine Learning
 
-- **Python** - Primary language for AI/ML development
-- **TensorFlow & Keras** - Deep learning frameworks
-- **Scikit-learn** - ML models & algorithms
-- **XGBoost** - Ensemble learning methods
-- **LLaMA 3.3** - Large language model with RAG
-- **U-Net CNN** - Tree segmentation architecture
-- **LSTM Networks** - Time series forecasting
-- **TOPSIS** - Multi-criteria decision making
+- **Python** – Core language for AI modules
+- **TensorFlow & Keras** – Model training for emotion and speech prediction
+- **BERT (fine-tuned)** – Sentence simplification and level adaptation
+- **Xception Model + MTCNN** – Real-time emotion classification
+- **Hybrid CNN-RNN** – Speech pace prediction from mel spectrograms
+- **Wav2Vec 2.0** – Audio temporal pattern recognition
 
-### IoT & Sensor Technologies
+### 🧩 Frontend Development
 
-- **Arduino & ESP32** - IoT microcontrollers
-- **MQ-135** - CO₂/NOx detection sensor
-- **SDS011** - Laser-based PM2.5 sensor
-- **DHT22** - Digital temperature & humidity sensor
-- **Calibrated Microphones** - Noise monitoring sensors
+- **React.js** – Component-based UI
+- **Tailwind CSS** – Utility-first responsive styling
+- **SVG + Canvas** – Touch point math visualizations
+- **React-voice-visualizer** – Speech calibration feedback
 
-### Data Processing
+### 🧪 Backend & Architecture
 
-- **OpenCV** - Image processing & computer vision
-- **Librosa** - Audio analysis & Mel-spectrograms
-- **Pandas & NumPy** - Data manipulation & analysis
-- **NDVI Calculation** - Vegetation index from RGB
+- **Node.js & Express.js** – API-driven services
+- **Python Flask** – ML microservices
+- **MongoDB Atlas** – NoSQL cloud database
+- **RabbitMQ** – Messaging queue for microservice communication
+- **Docker & Kubernetes** – Containerization and orchestration
 
-### Backend Development
+### 🔉 Data & Audio Processing
 
-- **Python Flask** - Lightweight ML serving framework
-- **Node.js & Express** - Web application backend services
-- **RESTful APIs** - API-driven communication
-- **Axios** - Promise-based HTTP client
+- **Librosa** – Audio processing and mel spectrogram generation
+- **NLTK & SpaCy** – NLP for sentence restructuring
+- **Chroma.js** – Real-time visual theme rendering
 
-### Frontend Development
+### ☁️ Cloud & DevOps
 
-- **React.js** - Core frontend library
-- **Next.js** - React framework with SSR
-- **Tailwind CSS** - Utility-first styling
-- **Chart.js & ApexCharts** - Data visualization libraries
-- **React-Leaflet** - Interactive mapping
-- **Mapbox API** - Interactive mapping & geolocation
-- **Framer Motion** - Animation library
+- **AWS Fargate** – Serverless backend container hosting
+- **Vercel** – Frontend deployment platform
+- **Firebase** – Image storage and real-time data
+- **SendGrid** – Transactional and notification emails
+- **Google TTS API** – Custom speech playback
+- **GitHub Actions** – CI/CD pipeline
+- **Git** – Version control
 
-### Database & Cloud
+## 📊 Testing & Monitoring
 
-- **MongoDB** - Primary NoSQL database
-- **Firebase** - Real-time data synchronization
-- **AWS/GCP/Azure** - Cloud platforms (designed for)
-- **Docker & Kubernetes** - Containerization & orchestration
-- **Git** - Version control system
+- **Jest** – Unit testing
+- **Postman & Selenium** – API and integration testing
+- **Apache JMeter** – Performance and load testing
+- **Prometheus & Grafana** – Monitoring and visualization
+
+---
+
+> Developed as part of a BSc (Hons) Software Engineering final year project at the Sri Lanka Institute of Information Technology – 2025.
+> EOF
 
 ## 🚀 Getting Started
 
@@ -272,4 +271,5 @@ This project is developed as part of academic research at Sri Lanka Institute of
 _Pioneering a Greener, Smarter Urban Future_
 
 For more information, visit our [project website](http://localhost:3000) or contact our team.
+
 # Lexayudha-static
