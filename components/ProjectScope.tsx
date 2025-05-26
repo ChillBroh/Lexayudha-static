@@ -259,7 +259,7 @@ export default function ProjectScope() {
                     <span className="text-gray-300">
                       Hybrid CNN-RNN models analyze mel spectrograms to predict
                       personalized speech pace and generate TTS audio tailored
-                      to each learner's comprehension needs
+                      to each learner&apos;s comprehension needs
                     </span>
                   </div>
                   <div>
