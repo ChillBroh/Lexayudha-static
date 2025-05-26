@@ -8,7 +8,6 @@ import Technologies from "../components/Technologies";
 import Milestones from "../components/Milestones";
 import Downloads from "../components/Downloads";
 import About from "../components/About";
-import Contact from "../components/Contact";
 
 export default function Home() {
   return (

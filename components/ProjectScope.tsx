@@ -257,7 +257,6 @@ export default function ProjectScope() {
                       SpeechAdapt AI:
                     </span>
                     <span className="text-gray-300">
-                      {" "}
                       Hybrid CNN-RNN models analyze mel spectrograms to predict
                       personalized speech pace and generate TTS audio tailored
                       to each learner's comprehension needs
@@ -268,7 +267,6 @@ export default function ProjectScope() {
                       Touch Math:
                     </span>
                     <span className="text-gray-300">
-                      {" "}
                       Gamified multisensory learning platform based on the Touch
                       Math method, integrating visual, auditory, and tactile
                       feedback for improving number sense and arithmetic skills

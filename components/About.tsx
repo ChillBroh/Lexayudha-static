@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/outline";
+import { UserGroupIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 const teamMembers = [
@@ -63,15 +63,6 @@ const teamMembers = [
     image: "/images/tharushi.png",
     color: "from-indigo-500 to-indigo-600",
   },
-];
-
-const achievements = [
-  "Final Year Research Project at Sri Lanka Institute of Information Technology",
-  "Comprehensive Literature Survey and Research Gap Analysis Completed",
-  "Advanced AI and Machine Learning Models Successfully Developed",
-  "Integrated IoT Sensor Networks and Real-time Data Processing Systems",
-  "Interactive Web Platform with Modern UI/UX Design",
-  "Academic Research Paper and Technical Documentation Completed",
 ];
 
 export default function About() {
