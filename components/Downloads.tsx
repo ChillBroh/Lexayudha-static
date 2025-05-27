@@ -32,7 +32,7 @@ const documents = [
     status: "available",
     category: "Individual",
     downloadUrl:
-      "https://drive.google.com/drive/folders/1UARxuchamGO5lNQujftPSUWakYmfhf4b?usp=sharing",
+      "https://drive.google.com/drive/folders/1vbLVIimybN5J2zuHeRphVoMl7T-sa6Qd?usp=drive_link",
   },
   {
     title: "Research Paper",
@@ -44,7 +44,8 @@ const documents = [
     format: "PDF",
     status: "available",
     category: "Group",
-    downloadUrl: "#",
+    downloadUrl:
+      "https://drive.google.com/file/d/1sEzbNMyPVFJJB2pUsPsQKa5EQOqFk_j7/view?usp=drive_link",
   },
   {
     title: "Final Report",
@@ -57,7 +58,7 @@ const documents = [
     status: "available",
     category: "Individual",
     downloadUrl:
-      "https://drive.google.com/drive/folders/1EupcaNopdoVmreDsozwdWY3dR1B46-V0?usp=sharing",
+      "https://drive.google.com/drive/folders/12aMvwLfT16RsPOnFYmIZWiqNP2nbuXYL?usp=sharing",
   },
 ];
 
