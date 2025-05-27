@@ -8,24 +8,24 @@ import {
 
 const literatureSurvey = [
   {
-    title: "Chromatic Variation for Dyslexia (VisualEase AI)",
+    title: "Chromatic Variation for Dyslexia",
     content:
       "Studies highlight that dyslexic individuals experience visual stress, making reading traditional black-on-white content difficult. Research recommends chromatic pairings like pale yellow on dark blue for improved readability. While effective, most platforms lack dynamic chromatic adaptation. LexAyudha addresses this gap with real-time, AI-driven chromatic adjustments to minimize visual stress and enhance engagement.",
   },
   {
-    title: "Emotion Detection in Learning (AffectSense)",
+    title: "Emotion Detection in Learning",
     content:
       "Emotion-aware adaptive systems are crucial in education, especially for learners with dyslexia and dyscalculia who face 20–30% more stress. Research supports facial expression recognition using CNNs like Xception. LexAyudha applies this through real-time emotion detection, adjusting task complexity based on frustration, distraction, or engagement signals, creating a more responsive learning environment.",
   },
   {
-    title: "Personalized Speech Pace Adjustment (SpeechAdapt AI)",
+    title: "Personalized Speech Pace Adjustment",
     content:
       "Speech comprehension challenges in dyslexic learners are well documented. Existing tools offer manual rate control but lack AI-driven personalization. LexAyudha uses a hybrid CNN-RNN model on mel spectrograms to predict optimal speech pace, delivering tailored audio via Google TTS, enhancing understanding and reducing cognitive load.",
   },
   {
     title: "Multisensory Learning for Dyscalculia (Touch Math)",
     content:
-      "Touch Math is a multisensory method proven effective in teaching arithmetic to dyscalculic learners. Digital adaptations are limited and often non-interactive. LexAyudha bridges this with a gamified platform combining visual, tactile, and auditory cues—integrating real-time speech feedback and adaptive content for personalized math learning.",
+      "Touch Math is a multisensory method proven effective in teaching arithmetic to dyscalculic learners. Digital adaptations are limited and often non-interactive. LexAyudha bridges this with a gamified platform combining visual, tactile, and auditory cues integrating real-time speech feedback and adaptive content for personalized math learning.",
   },
 ];
 
@@ -40,22 +40,22 @@ const researchGaps = [
 
 const researchObjectives = [
   {
-    title: "VisualEase AI - Chromatic Variation Engine",
+    title: "Chromatic Variation Engine",
     description:
       "Develop a real-time chromatic variation module that adapts font, background, and contrast dynamically to reduce visual stress and enhance readability for dyslexic learners using Chroma.js and visual stress datasets.",
   },
   {
-    title: "AffectSense - Emotion-Aware Learning",
+    title: "Emotion-Aware Learning",
     description:
       "Implement real-time facial emotion recognition using MTCNN and Xception to detect frustration, distraction, and engagement. Dynamically adjust learning tasks and generate guardian reports to foster emotionally aware, adaptive learning.",
   },
   {
-    title: "SpeechAdapt AI - Personalized Speech Comprehension",
+    title: "Personalized Speech Comprehension",
     description:
       "Use CNN-RNN models on mel spectrograms for speech pace prediction. Integrate with Google TTS to deliver personalized, pace-optimized audio for dyslexic adolescents to improve auditory comprehension.",
   },
   {
-    title: "Touch Math - Gamified Multisensory Math Learning",
+    title: "Gamified Multisensory Math Learning",
     description:
       "Design an interactive web platform using the Touch Math method. Combine visual-tactile number interactions with gamification, real-time speech recognition, and adaptive quizzes for dyscalculic students.",
   },
@@ -63,7 +63,7 @@ const researchObjectives = [
 
 export default function ProjectScope() {
   return (
-    <section id="project-scope" className="py-12 sm:py-16 md:py-20 ">
+    <section id="project-scope" className="py-12 sm:py-16 md:py-2 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -230,9 +230,9 @@ export default function ProjectScope() {
                   components:
                 </p>
                 <div className="space-y-3 text-sm">
-                  <div>
+                  <div className="flex items-start">
                     <span className="text-blue-400 font-semibold">
-                      VisualEase AI:
+                      <li></li>
                     </span>
                     <span className="text-gray-300">
                       {" "}
@@ -241,9 +241,9 @@ export default function ProjectScope() {
                       improve readability for dyslexic learners
                     </span>
                   </div>
-                  <div>
+                  <div className="flex items-start">
                     <span className="text-purple-400 font-semibold">
-                      AffectSense:
+                      <li></li>
                     </span>
                     <span className="text-gray-300">
                       {" "}
@@ -252,9 +252,9 @@ export default function ProjectScope() {
                       feedback (frustration, distraction, engagement)
                     </span>
                   </div>
-                  <div>
+                  <div className="flex items-start">
                     <span className="text-yellow-400 font-semibold">
-                      SpeechAdapt AI:
+                      <li></li>
                     </span>
                     <span className="text-gray-300">
                       Hybrid CNN-RNN models analyze mel spectrograms to predict
@@ -262,9 +262,9 @@ export default function ProjectScope() {
                       to each learner&apos;s comprehension needs
                     </span>
                   </div>
-                  <div>
+                  <div className="flex items-start">
                     <span className="text-pink-400 font-semibold">
-                      Touch Math:
+                      <li></li>
                     </span>
                     <span className="text-gray-300">
                       Gamified multisensory learning platform based on the Touch

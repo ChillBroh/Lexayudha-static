@@ -3,7 +3,7 @@ import { FiPlay } from "react-icons/fi";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-16 relative">
+    <section className="min-h-screen flex items-center justify-center py-16 relative">
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 z-0"
@@ -30,12 +30,12 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="inline-block mb-6 sm:mb-8"
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-2">
               LEXAYUDHA
             </h1>
-            <div className="w-32 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto rounded-full mb-6"></div>
+            <div className="w-32 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto rounded-full mb-0"></div>
           </motion.div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl text-green-400 mb-6 sm:mb-8 font-bold">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl text-green-400 mb-0 sm:mb-8 font-bold">
             Every Child is Special
           </h2>
           <h3 className="text-lg sm:text-xl text-blue-400 mb-6 font-medium">

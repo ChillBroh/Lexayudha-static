@@ -39,13 +39,13 @@ const methodologySteps = [
 
 const systemComponents = [
   {
-    component: "VisualEase AI - Chromatic Variation Engine",
+    component: "Chromatic Variation Engine",
     description:
       "Dynamic color theme adjustments based on visual stress reduction principles using Chroma.js and real-time personalization. Supports WCAG-compliant themes.",
     technologies: ["Chroma.js", "JavaScript", "React.js", "SVG", "WCAG"],
   },
   {
-    component: "AffectSense - Emotion Detection Module",
+    component: "Emotion Detection Module",
     description:
       "Real-time face detection with MTCNN and emotion classification with Xception. Custom algorithm translates facial expressions into frustration, distraction, or engagement cues.SendGrid to send Reports to Guardian",
     technologies: [
@@ -58,7 +58,7 @@ const systemComponents = [
     ],
   },
   {
-    component: "SpeechAdapt AI - Personalized Speech Pace",
+    component: "Personalized Speech Pace",
     description:
       "Hybrid CNN-RNN (VGG16 + Wav2Vec 2.0) predicts optimal speech pace from mel spectrograms and raw audio. Integrated with Google TTS API for real-time, user-specific audio output.",
     technologies: [
@@ -99,7 +99,7 @@ export default function Methodology() {
   return (
     <section
       id="methodology"
-      className="py-12 sm:py-16 md:py-20 bg-zinc-900/50"
+      className="py-12 sm:py-16 md:py-2 bg-zinc-900/50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div

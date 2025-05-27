@@ -14,7 +14,9 @@ import {
   FaDocker,
   FaAws,
   FaGitAlt,
+  
 } from "react-icons/fa";
+import {PiPentagramDuotone } from "react-icons/pi";
 import {
   SiTensorflow,
   SiMongodb,
@@ -39,23 +41,23 @@ const technologyCategories = [
       },
       {
         name: "BERT",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Fine-tuned for adaptive sentence generation",
       },
       {
         name: "Xception Model",
-        icon: null,
+        icon: PiPentagramDuotone,
         description:
           "Emotion detection through facial expression classification",
       },
       {
         name: "Hybrid CNN-RNN",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Speech pace prediction from mel spectrograms",
       },
       {
         name: "Wav2Vec 2.0",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Temporal pattern recognition from audio waveforms",
       },
     ],
@@ -77,12 +79,12 @@ const technologyCategories = [
       },
       {
         name: "SVG",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Touch point rendering in dyscalculia activities",
       },
       {
         name: "React-voice-visualizer",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Visual feedback for speech calibration",
       },
     ],
@@ -121,17 +123,17 @@ const technologyCategories = [
     technologies: [
       {
         name: "Librosa",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Mel spectrogram generation from audio",
       },
       {
         name: "NLTK & SpaCy",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Text simplification and NLP processing",
       },
       {
         name: "Chroma.js",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Real-time rendering of chromatic variation themes",
       },
     ],
@@ -146,10 +148,10 @@ const technologyCategories = [
         icon: FaAws,
         description: "Serverless backend container hosting",
       },
-      { name: "Vercel", icon: null, description: "Frontend React app hosting" },
+      { name: "Vercel", icon: PiPentagramDuotone, description: "Frontend React app hosting" },
       {
         name: "SendGrid",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Transactional and notification email service",
       },
       {
@@ -159,12 +161,12 @@ const technologyCategories = [
       },
       {
         name: "Google TTS",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "AI-based text-to-speech audio output",
       },
       {
         name: "RabbitMQ",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Microservices messaging queue",
       },
       {
@@ -174,7 +176,7 @@ const technologyCategories = [
       },
       {
         name: "GitHub Actions",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "CI/CD automation and deployment pipeline",
       },
       {
@@ -191,22 +193,22 @@ const technologyCategories = [
     technologies: [
       {
         name: "Jest",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Unit testing for core modules",
       },
       {
         name: "Selenium & Postman",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Integration and API testing",
       },
       {
         name: "Apache JMeter",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "Performance and load testing",
       },
       {
         name: "Prometheus & Grafana",
-        icon: null,
+        icon: PiPentagramDuotone,
         description: "System monitoring and logging",
       },
     ],
@@ -216,7 +218,7 @@ const technologyCategories = [
 
 export default function Technologies() {
   return (
-    <section id="technologies" className="py-12 sm:py-16 md:py-20">
+    <section id="technologies" className="py-12 sm:py-16 md:py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -128,7 +128,7 @@ const getStatusIcon = (status: string) => {
 
 export default function Milestones() {
   return (
-    <section id="milestones" className="py-12 sm:py-16 md:py-20 bg-zinc-900/50">
+    <section id="milestones" className="py-12 sm:py-16 md:py-4 bg-zinc-900/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

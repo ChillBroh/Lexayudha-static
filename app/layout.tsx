@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IEMS - Intelligent EcoUrban Monitoring System",
-  description: "Revolutionary platform integrating AI, IoT, and data analytics for comprehensive urban environmental monitoring including air quality, noise pollution, green spaces, and vehicle CO₂ emissions",
+  title: "LexAyudha - AI-based Personalized Rehabilitation for Dyslexia and Dyscalculia Adolescents​",
+  description: "Welcome to our innovative platform specializing in AI-based Personalized Rehabilitation for Dyslexia and Dyscalculia Adolescents. Discover tailored solutions designed to empower young learners with cutting-edge technologies, fostering confidence and academic success. Our program combines advanced AI algorithms with expert insights to deliver personalized support, ensuring every adolescent receives targeted assistance to overcome challenges in reading, numeracy, and cognitive skills. Join us in transforming education with adaptive learning experiences that inspire growth and achievement",
 };
 
 export default function RootLayout({
