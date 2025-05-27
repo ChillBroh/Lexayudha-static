@@ -108,7 +108,7 @@ const presentations = [
     format: "PDF",
     status: "available",
     category: "Group",
-    downloadUrl: "#",
+    downloadUrl: "/presentations/final-presentation.pdf",
   },
 ];
 
