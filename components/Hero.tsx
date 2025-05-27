@@ -54,7 +54,7 @@ export default function Hero() {
             personalized speech pacing, and gamified math learning. This
             holistic approach ensures learners receive the cognitive and
             emotional support they need to thrive. LexAyudha redefines inclusive
-            education—making learning smarter, more engaging, and truly
+            education making learning smarter, more engaging, and truly
             accessible for every student.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">

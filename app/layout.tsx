@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "LexAyudha - AI-based Personalized Rehabilitation for Dyslexia and Dyscalculia Adolescents​",
   description: "Welcome to our innovative platform specializing in AI-based Personalized Rehabilitation for Dyslexia and Dyscalculia Adolescents. Discover tailored solutions designed to empower young learners with cutting-edge technologies, fostering confidence and academic success. Our program combines advanced AI algorithms with expert insights to deliver personalized support, ensuring every adolescent receives targeted assistance to overcome challenges in reading, numeracy, and cognitive skills. Join us in transforming education with adaptive learning experiences that inspire growth and achievement",
+  icons:{
+    icon: "/lexLogo.png",
+    apple: "/apple-touch-icon.png",
+  }
 };
 
 export default function RootLayout({
