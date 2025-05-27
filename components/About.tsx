@@ -19,7 +19,7 @@ const teamMembers = [
     department: "Department of Information Technology",
     institution: "Sri Lanka Institute of Information Technology",
     location: "Malabe, Sri Lanka",
-    email: "kaushika.k@sliit.lk",
+    email: "junius.a@sliit.lk",
     image: "/images/anjana.png",
     color: "from-purple-500 to-purple-600",
   },
