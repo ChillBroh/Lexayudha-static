@@ -7,6 +7,7 @@ import Methodology from "../components/Methodology";
 import Technologies from "../components/Technologies";
 import Milestones from "../components/Milestones";
 import Downloads from "../components/Downloads";
+import Commercialization from "../components/Commercialization";
 import About from "../components/About";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Technologies />
         <Milestones />
         <Downloads />
+        <Commercialization />
         <About />
         {/* <Contact /> */}
       </div>
