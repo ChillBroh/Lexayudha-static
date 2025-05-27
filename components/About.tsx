@@ -9,7 +9,7 @@ const teamMembers = [
     department: "Department of Computer Systems and Engineering",
     institution: "Sri Lanka Institute of Information Technology",
     location: "Malabe, Sri Lanka",
-    email: "samantha.r@sliit.lk",
+    email: "samantha.t@sliit.lk",
     image: "/images/samantha.png",
     color: "from-blue-500 to-blue-600",
   },
