@@ -89,11 +89,11 @@ export default function About() {
                 Meet Our Team!
               </h3>
               <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed text-center">
-                LexAyudha is developed by a multidisciplinary team from the Sri
-                Lanka Institute of Information Technology (SLIIT), specializing
-                in Software Engineering, Artificial Intelligence, and
-                Human-Centered Computing. Our team is driven by a shared vision
-                to enhance inclusive education through the integration of
+                LexAyudha is developed by a multidisciplinary team (24-25J-233)
+                from the Sri Lanka Institute of Information Technology (SLIIT),
+                specializing in Software Engineering, Artificial Intelligence,
+                and Human-Centered Computing. Our team is driven by a shared
+                vision to enhance inclusive education through the integration of
                 advanced technologies and empathetic design. Under the
                 mentorship of leading academic supervisors and driven by a
                 passion for social impact, we have designed and developed an
